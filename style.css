@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    /* background-color: #e1faff; */
+    width: 60%;
+    max-width: 500px;
+    margin: 50px auto;
+    /* background: url('https://cdn.pixabay.com/photo/2019/05/29/09/41/sky-4237062__340.jpg') no-repeat; */
+    background: url('https://thumbs.gfycat.com/AbleClosedIndigowingedparrot-max-1mb.gif') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: border-box;
+
+}
+
+.container{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+}
+.search{
+    width: 100%;
+    background: #eefcff;
+    box-shadow:  inset 7px 7px 14px #eefcff,
+             -7px -3px 14px #c4dfe59c;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    overflow: hidden;
+}
+.search input[type='submit']{
+    background : rgb(0, 0, 0);
+    width: 30%;
+    color: white;
+    
+}
+.search input{
+    border: none;
+    padding: 0.5rem;
+    width: 70%;
+    background: transparent;
+    outline: none;
+    font-size: 1.3rem;
+}
+.content{
+    text-align: center;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+.features div p:nth-child(2){
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.img,#temp{
+    margin: 1rem 0px;
+}
+img{
+    width: 7rem;
+}
+#temp{
+    font-weight: bolder;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 15px rgba(76, 76, 76, 0.831);
+}
+.cityname{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: rgb(62, 62, 62);
+}
