@@ -10,9 +10,9 @@ body{
     /* background-color: #e1faff; */
     width: 60%;
     max-width: 500px;
-    margin: 50px auto;
-    /* background: url('https://cdn.pixabay.com/photo/2019/05/29/09/41/sky-4237062__340.jpg') no-repeat; */
-    background: url('https://thumbs.gfycat.com/AbleClosedIndigowingedparrot-max-1mb.gif') no-repeat;
+    margin: 5% auto;
+    background: url('https://cdn.pixabay.com/photo/2019/05/29/09/41/sky-4237062__340.jpg') no-repeat;
+    /* background: url('https://thumbs.gfycat.com/AbleClosedIndigowingedparrot-max-1mb.gif') no-repeat; */
     background-attachment: fixed;
     background-size: cover;
     background-origin: border-box;
@@ -24,7 +24,7 @@ body{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 2rem;
